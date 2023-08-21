@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    list-style-type: none;
+    /* background-image: url(); */
+    background: url('https://www.rpspromo.com/template/back/img/bg-img/bg-img-2.jpg') no-repeat 0 0 scroll;
+    /* background-color: #0C0C0C; */
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(51, 50, 50); */
+    color: rgb(255, 255, 255);
+  }
+  
+  .contact-form {
+    background-color: rgb(42, 40, 40);
+    padding: 45px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 296px;
+    width: 400px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+    width: 373px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    width: 84px;
+    margin-left: 159px;
+    
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
